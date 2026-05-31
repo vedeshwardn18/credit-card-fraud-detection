@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # Credit Card Fraud Detection System
-=======
+
 # credit-card-fraud-detection
->>>>>>> 2ce53b92b366823f15719604a538622e41c36f65
 
 ## Overview
 
