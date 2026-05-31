@@ -159,8 +159,4 @@ Returns all fraud transactions.
 Vedeshwar D N
 
 B.Tech AIML
-<<<<<<< HEAD
 Woxsen University
-=======
-Woxsen University
->>>>>>> 2ce53b92b366823f15719604a538622e41c36f65
