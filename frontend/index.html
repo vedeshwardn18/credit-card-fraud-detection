@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Credit Card Fraud Detection Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Credit Card Fraud Detection Dashboard</h1>
+
+        <div class="cards">
+
+            <div class="card">
+                <h2>Total Transactions</h2>
+                <p id="totalTransactions">0</p>
+            </div>
+
+            <div class="card">
+                <h2>Fraud Transactions</h2>
+                <p id="totalFraud">0</p>
+            </div>
+
+            <div class="card">
+                <h2>Fraud Rate</h2>
+                <p id="fraudRate">0%</p>
+            </div>
+
+        </div>
+
+        <h2>Fraud Analysis</h2>
+
+        <div class="chart-container">
+            <canvas id="fraudChart"></canvas>
+        </div>
+
+        <h2>Transaction Trend</h2>
+
+        <div class="chart-container">
+            <canvas id="trendChart"></canvas>
+        </div>
+
+        <h2>Recent Transactions</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Amount</th>
+                    <th>Prediction</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+
+            <tbody id="transactionTable"></tbody>
+
+        </table>
+
+        <h2>Fraud Alerts</h2>
+
+        <div id="alerts"></div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

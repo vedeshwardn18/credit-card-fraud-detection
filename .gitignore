@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+.env
+
+backend/ml/fraud_model.pkl
+
+.DS_Store
+Thumbs.db
+backend/database/creditcard.csv
